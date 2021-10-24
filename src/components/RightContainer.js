@@ -21,16 +21,6 @@ function RightContainer() {
                         <Contact />
                         <Contact />
                         <Contact />
-                        <Contact />
-                        <Contact />
-                        <Contact />
-                        <Contact />
-                        <Contact />
-                        <Contact />
-                        <Contact />
-                        <Contact />
-                        <Contact />
-                        <Contact />
                     </ContactList>
                 </Contacts>
             </List>

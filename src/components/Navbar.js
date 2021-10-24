@@ -7,6 +7,8 @@ import {
     Menu 
     } from '@material-ui/icons'
 import { Avatar, makeStyles } from '@material-ui/core';
+import profilepic from '../20190810_061812.jpg';
+
 
 function Navbar() {
 
@@ -60,8 +62,8 @@ function Navbar() {
 
             <RightButton>
                 <AccountDetail>
-                    <Avatar src="https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4" className={classes.medium}/>
-                    <p>Gaurav</p>
+                    <Avatar src={profilepic} className={classes.medium}/>
+                    <p>Farish</p>
                 </AccountDetail>
                 <OtherIcons>
                     <Apps />

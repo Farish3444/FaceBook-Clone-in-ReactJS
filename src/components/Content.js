@@ -2,15 +2,17 @@ import { Avatar } from '@material-ui/core'
 import React from 'react'
 import styled from 'styled-components'
 import { ChatBubbleOutlineOutlined, Favorite, MoreHoriz, ReplyOutlined, ThumbUp, ThumbUpOutlined } from "@material-ui/icons"
+import profilepic from '../20190810_061812.jpg';
 
-function Content() {
+
+function Content({image,title}) {
     return (
         <Container>
             <Header>
                 <Profile>
-                    <Avatar />
+                    <Avatar src={profilepic}/>
                     <Title>
-                        <h4>Gaurav Konde</h4>
+                        <h4>Farish Developer</h4>
                         <p>3d </p>
                     </Title>
                 </Profile>
@@ -18,18 +20,18 @@ function Content() {
             </Header>
             <Text>
                 <div>
-                The all New Apple Macbook Pro M1 chip is Here Guys
+                    {title}
                 </div>
             </Text>
             <Image>
-                <img src="https://sb.nhattao.com/2018/12/11694856_macbook-pro-retina-15-inch-early-2015.jpg" alt="" />
+                <img src={image} alt="" />
             </Image>
             <EmojiCount>
                 <EmojiList>
                     <Emojis>
                         <ThumbUp className='like'/>
                         <Favorite className='love'/>
-                        <p>1M</p>
+                        <p>10M</p>
                     </Emojis>
                     <DetailInfo>
                         <p>10k comments</p>

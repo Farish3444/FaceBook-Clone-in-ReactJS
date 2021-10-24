@@ -1,22 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
+import profilepic from '../20190810_061812.jpg';
 
 function Story() {
     return (
         <Container>
-           <List image='https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4'>
-                <Profile src="https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4" />
+           <List image={profilepic}>
+                <Profile src={profilepic} />
             </List>
-            <List image='https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/tInzwsw2pVX.png'>
-                <Profile src="https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4" />
+            <List image='https://cdn.geekwire.com/wp-content/uploads/2020/12/201210-spacex.jpg'>    
+                <Profile src="https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2021/06/0/0/Elon-Musk-SpaceX-SN8.jpg?ve=1&tl=1" />
             </List>
             <List image='https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4'>
                 <Profile src="https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4" />
             </List>
-            <List image='https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/tInzwsw2pVX.png'>
+            <List image='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjbQUc2Dcqq2PpLHvaYHYAlYuMcPTv-CwD2w&usqp=CAU'>
                 <Profile src="https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4" />
             </List>
-            <List image='https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/tInzwsw2pVX.png'>
+            <List image='https://www.thesun.co.uk/wp-content/uploads/2018/09/NINTCHDBPICT000599996671.jpg'>
                 <Profile src="https://media-exp1.licdn.com/dms/image/C5603AQF-IuuNt18UrA/profile-displayphoto-shrink_400_400/0/1621611802448?e=1633564800&v=beta&t=mniGlAVfwO-fDkPtp56OHkRCqnanCQOKbh4YNoVxru4" />
             </List>
         </Container>

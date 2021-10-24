@@ -6,7 +6,7 @@ function Contact() {
     return (
         <Container>
             <Avatar />
-            <p>Gaurav Konde</p>
+            <p>Farish</p>
         </Container>
     )
 }
